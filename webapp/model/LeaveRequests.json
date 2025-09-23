@@ -1,0 +1,132 @@
+{
+  "LeaveRequests": [
+    {
+      "RequestID": "LR001",
+      "EmployeeID": "2438669",
+      "EmployeeName": "Pola Ramesh",
+      "StartDate": "2025-09-20",
+      "EndDate": "2025-09-25",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR002",
+      "EmployeeID": "2439003",
+      "EmployeeName": "Mudragada Sri Sannidh",
+      "StartDate": "2025-09-18",
+      "EndDate": "2025-09-22",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR003",
+      "EmployeeID": "2438931",
+      "EmployeeName": "Rangala Mahesh",
+      "StartDate": "2025-10-01",
+      "EndDate": "2025-10-05",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR004",
+      "EmployeeID": "2438934",
+      "EmployeeName": "Siva Sai Snehal Boyanapally",
+      "StartDate": "2025-09-23",
+      "EndDate": "2025-09-27",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR005",
+      "EmployeeID": "2438690",
+      "EmployeeName": "Kota Reddy Jeswanth",
+      "StartDate": "2025-09-19",
+      "EndDate": "2025-09-21",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR006",
+      "EmployeeID": "2438893",
+      "EmployeeName": "Basavaraj Sangamesh Golasangi",
+      "StartDate": "2025-09-26",
+      "EndDate": "2025-09-29",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR007",
+      "EmployeeID": "2439017",
+      "EmployeeName": "Amit Maurya",
+      "StartDate": "2025-09-28",
+      "EndDate": "2025-09-30",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR008",
+      "EmployeeID": "2438761",
+      "EmployeeName": "Rohan Sudhir Kate",
+      "StartDate": "2025-10-02",
+      "EndDate": "2025-10-04",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR009",
+      "EmployeeID": "2439012",
+      "EmployeeName": "Meet Siddanagouda Patil",
+      "StartDate": "2025-09-24",
+      "EndDate": "2025-09-26",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR010",
+      "EmployeeID": "2438758",
+      "EmployeeName": "Ayan Khan",
+      "StartDate": "2025-10-06",
+      "EndDate": "2025-10-08",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR011",
+      "EmployeeID": "2439050",
+      "EmployeeName": "Shekar Reddy Ratna",
+      "StartDate": "2025-09-21",
+      "EndDate": "2025-09-23",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR012",
+      "EmployeeID": "2439030",
+      "EmployeeName": "Ashutosh Pandey",
+      "StartDate": "2025-09-25",
+      "EndDate": "2025-09-28",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR013",
+      "EmployeeID": "2439000",
+      "EmployeeName": "Sahil Santosh Sapate",
+      "StartDate": "2025-10-03",
+      "EndDate": "2025-10-06",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR014",
+      "EmployeeID": "2438713",
+      "EmployeeName": "Sakshi Shristi",
+      "StartDate": "2025-09-29",
+      "EndDate": "2025-10-01",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR015",
+      "EmployeeID": "2438693",
+      "EmployeeName": "Gottimukkula Jithin",
+      "StartDate": "2025-09-18",
+      "EndDate": "2025-09-22",
+      "Status": "Pending"
+    },
+    {
+      "RequestID": "LR016",
+      "EmployeeID": "2438852",
+      "EmployeeName": "Shubham Kiran Patil",
+      "StartDate": "2025-10-07",
+      "EndDate": "2025-10-09",
+      "Status": "Pending"
+    }
+  ]
+}

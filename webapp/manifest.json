@@ -1,0 +1,107 @@
+{
+  "_version": "1.76.0",
+  "sap.app": {
+    "id": "com.leaveapproval",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.18.7",
+      "toolsId": "e586cc29-375a-4b32-a0c3-d70db8a96774"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.140.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "com.leaveapproval.i18n.i18n"
+        }
+      },
+      "leaveModel": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/LeaveRequests.json"
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "com.leaveapproval.view",
+        "async": true,
+        "viewPath": "com.leaveapproval.view"
+      },
+      "routes": [
+        {
+          "name": "LeaveRequests",
+          "pattern": "",
+          "target": "LeaveRequests"
+        },
+        {
+          "name": "Detail",
+          "pattern": "detail/{requestId}",
+          "target": "Detail"
+        }
+      ],
+      "targets": {
+        "LeaveRequests": {
+          "viewName": "LeaveRequests"
+        },
+        "Detail": {
+          "viewName": "Detail"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "com.leaveapproval.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}

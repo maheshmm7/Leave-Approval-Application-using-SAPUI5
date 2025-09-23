@@ -1,0 +1,27 @@
+<mvc:View
+    controllerName="com.leaveapproval.controller.Detail"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    
+    <Page title="Leave Request Details" showNavButton="true" navButtonPress=".onNavBack">
+    <content>
+      <VBox class="sapUiSmallMargin">
+        <ObjectHeader title="{leaveModel>EmployeeName}" number="{leaveModel>RequestID}" numberUnit="Request ID">
+          <attributes>
+            <ObjectAttribute title="Employee ID" text="{leaveModel>EmployeeID}"/>
+            <ObjectAttribute title="Start Date" text="{leaveModel>StartDate}"/>
+            <ObjectAttribute title="End Date" text="{leaveModel>EndDate}"/>
+          </attributes>
+          <statuses>
+            <ObjectStatus title="Status" text="{leaveModel>Status}" state="{ path: 'leaveModel>Status', formatter: '.formatStatus' }"/>
+          </statuses>
+        </ObjectHeader>
+
+        <HBox class="sapUiSmallMargin" justifyContent="Center" alignItems="Center">
+          <Button text="Approve" type="Accept" press=".onApprove" width="120px"/>
+          <Button text="Reject" type="Reject" press=".onReject" width="120px"/>
+        </HBox>
+      </VBox>
+    </content>
+  </Page>
+</mvc:View>

@@ -1,0 +1,35 @@
+<mvc:View controllerName="com.leaveapproval.controller.LeaveRequests"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page title="{i18n_de>appDescription}">
+    <content>
+      <Table id="leaveTable" items="{leaveModel>/LeaveRequests}"> 
+        <headerToolbar>
+          <Toolbar>
+            <Title text="Pending Leave Requests"/>
+          </Toolbar>
+        </headerToolbar>
+
+        <columns>
+          <Column><Text text="Request ID"/></Column>
+          <Column><Text text="Employee ID"/></Column>
+          <Column><Text text="Employee Name"/></Column>
+          <Column><Text text="Start Date"/></Column>
+          <Column><Text text="End Date"/></Column>
+          <Column><Text text="Status"/></Column>
+        </columns>
+
+        <items>
+          <ColumnListItem type="Navigation" press=".onItemPress">
+            <Text text="{leaveModel>RequestID}"/>
+            <Text text="{leaveModel>EmployeeID}"/>
+            <Text text="{leaveModel>EmployeeName}"/>
+            <Text text="{leaveModel>StartDate}"/>
+            <Text text="{leaveModel>EndDate}"/>
+            <Text text="{leaveModel>Status}"/>
+          </ColumnListItem>
+        </items>
+      </Table>
+    </content>
+  </Page>
+</mvc:View>
